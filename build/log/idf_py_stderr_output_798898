@@ -1,0 +1,38 @@
+info: INFO: Symbol EXAMPLE_PIN_CMD defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:33
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:74
+info: INFO: Symbol EXAMPLE_PIN_CLK defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:38
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:78
+info: INFO: Symbol EXAMPLE_PIN_D0 defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:43
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:82
+info: INFO: Symbol EXAMPLE_PIN_D1 defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:50
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:88
+info: INFO: Symbol EXAMPLE_PIN_D2 defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:55
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:92
+info: INFO: Symbol EXAMPLE_PIN_D3 defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:60
+    /media/wish/Disk/esp/camera_example/main/Kconfig.projbuild:96
+CMake Error at /media/wish/Disk/esp/esp-idf/tools/cmake/component.cmake:480 (add_library):
+  Cannot find source file:
+
+    /media/wish/Disk/esp/camera_example/main/canera.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+  .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+  .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Error at /media/wish/Disk/esp/esp-idf/tools/cmake/component.cmake:480 (add_library):
+  No SOURCES given to target: __idf_main
+Call Stack (most recent call first):
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+ninja: error: rebuilding 'build.ninja': subcommand failed

@@ -1,0 +1,48 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 1500000[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40379aca: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x4037f375: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40384f5d: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x403841f2: block_locate_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1015 (discriminator 1)
+0x40383d49: multi_heap_malloc_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:211
+0x4037a327: aligned_or_unaligned_alloc at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:77
+ (inlined by) heap_caps_aligned_alloc_base at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:150
+0x4037a349: heap_caps_malloc_base at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:170
+0x4037a02b: heap_caps_malloc_default at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps.c:120
+0x40384f6d: malloc at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:24
+0x42007dfc: get_32x32_jpg at /media/wish/Disk/esp/camera_example/main/init_camera.c:167
+0x42007d9c: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:220
+0x42029a1c: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40379aca: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x4037f375: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40384f5d: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x403841f2: block_locate_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1015 (discriminator 1)
+0x40383d49: multi_heap_malloc_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:211
+0x4037a327: aligned_or_unaligned_alloc at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:77
+ (inlined by) heap_caps_aligned_alloc_base at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:150
+0x4037a349: heap_caps_malloc_base at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:170
+0x4037a02b: heap_caps_malloc_default at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps.c:120
+0x40384f6d: malloc at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:24
+0x42007dfc: get_32x32_jpg at /media/wish/Disk/esp/camera_example/main/init_camera.c:167
+0x42007d9c: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:220
+0x42029a1c: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40379aca: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x4037f375: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40384f5d: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x403841f2: block_locate_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:566 (discriminator 1)
+ (inlined by) tlsf_malloc at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1015 (discriminator 1)
+0x40383d49: multi_heap_malloc_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:211
+0x4037a327: aligned_or_unaligned_alloc at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:77
+ (inlined by) heap_caps_aligned_alloc_base at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:150
+0x4037a349: heap_caps_malloc_base at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:170
+0x4037a02b: heap_caps_malloc_default at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps.c:120
+0x40384f6d: malloc at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:24
+0x42007dfc: get_32x32_jpg at /media/wish/Disk/esp/camera_example/main/init_camera.c:167
+0x42007d9c: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:220
+0x42029a1c: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0m

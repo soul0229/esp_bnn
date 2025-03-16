@@ -1,0 +1,57 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x4200e393: task_wdt_timeout_handling at /media/wish/Disk/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x4200e7b0: task_wdt_isr at /media/wish/Disk/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40377b0d: _xt_lowint1 at /media/wish/Disk/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x40048836: uart_tx_one_char_uart in ROM
+0x40048c69: uart_tx_one_char in ROM
+0x420063ed: _write_r_console at /media/wish/Disk/esp/esp-idf/components/newlib/syscalls.c:35
+0x4201014a: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200f95d: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200f9ae: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+0x4200ff52: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:232
+0x42014067: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x42013a0d: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x42006ddd: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:189
+0x4201bda3: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037c9b5: vPortTaskWrapper at /media/wish/Disk/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4200e393: task_wdt_timeout_handling at /media/wish/Disk/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x4200e7b0: task_wdt_isr at /media/wish/Disk/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40377b0d: _xt_lowint1 at /media/wish/Disk/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x40048836: uart_tx_one_char_uart in ROM
+0x40048c69: uart_tx_one_char in ROM
+0x420063ed: _write_r_console at /media/wish/Disk/esp/esp-idf/components/newlib/syscalls.c:35
+0x4201014a: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200f95d: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200f9ae: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+0x4200ff52: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:232
+0x42014067: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x42013a45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1774 (discriminator 1)
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x42006ddd: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:189
+0x4201bda3: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037c9b5: vPortTaskWrapper at /media/wish/Disk/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x4200e393: task_wdt_timeout_handling at /media/wish/Disk/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:434
+0x4200e7b0: task_wdt_isr at /media/wish/Disk/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:507
+0x40377b0d: _xt_lowint1 at /media/wish/Disk/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x40048838: uart_tx_one_char_uart in ROM
+0x40048c69: uart_tx_one_char in ROM
+0x420063ed: _write_r_console at /media/wish/Disk/esp/esp-idf/components/newlib/syscalls.c:35
+0x4201014a: __swrite at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/stdio.c:94
+0x4200f95d: __sflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:224
+0x4200f9ae: _fflush_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fflush.c:278
+0x4200ff52: __sfvwrite_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c:232
+0x42014067: __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfiprintf.c:429
+ (inlined by) __sprint_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:399
+0x42013a0d: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:1766 (discriminator 1)
+0x42010023: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x42006ddd: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:189
+0x4201bda3: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+0x4037c9b5: vPortTaskWrapper at /media/wish/Disk/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

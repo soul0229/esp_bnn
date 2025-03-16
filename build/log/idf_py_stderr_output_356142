@@ -1,0 +1,14 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 1500000[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x420076d8: BasicBlock at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:46
+[0m
+[0;33m--- 0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m--- 0x420076d5: BasicBlock at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:46
+0x420077c1: net_inference at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:94
+0x4200782c: resnet18 at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:154
+0x42007961: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:223
+0x4202463c: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0m

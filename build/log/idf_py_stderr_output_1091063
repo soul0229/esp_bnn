@@ -1,0 +1,35 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 1500000[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40379bae: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x4037f481: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40385069: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x40383f6c: block_next at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:94 (discriminator 1)
+ (inlined by) block_link_next at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:101 (discriminator 1)
+ (inlined by) block_mark_as_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:109 (discriminator 1)
+ (inlined by) tlsf_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1202 (discriminator 1)
+0x40383df0: multi_heap_free_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:235
+ (inlined by) multi_heap_free_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:224
+0x4037a307: heap_caps_free at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:70
+0x40385099: free at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:39
+0x42008bce: avg_pool at /media/wish/Disk/esp/camera_example/components/BNN/utils.c:175
+0x42008fd3: net_inference at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:110
+0x42008ff4: resnet18 at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:151
+0x420090df: net_Task at /media/wish/Disk/esp/camera_example/main/take_picture.c:72 (discriminator 1)
+[0m
+[0;33m--- 0x40379bae: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x4037f481: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40385069: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x40383f6c: block_next at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:94 (discriminator 1)
+ (inlined by) block_link_next at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:101 (discriminator 1)
+ (inlined by) block_mark_as_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf_block_functions.h:109 (discriminator 1)
+ (inlined by) tlsf_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1202 (discriminator 1)
+0x40383df0: multi_heap_free_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:235
+ (inlined by) multi_heap_free_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:224
+0x4037a307: heap_caps_free at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:70
+0x40385099: free at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:39
+0x42008bce: avg_pool at /media/wish/Disk/esp/camera_example/components/BNN/utils.c:175
+0x42008fd3: net_inference at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:110
+0x42008ff4: resnet18 at /media/wish/Disk/esp/camera_example/components/net/resnet18.c:151
+0x420090df: net_Task at /media/wish/Disk/esp/camera_example/main/take_picture.c:72 (discriminator 1)
+[0m
+[0m

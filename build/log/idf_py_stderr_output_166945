@@ -1,0 +1,78 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 1500000[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40056f60: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5d: memcpy in ROM
+0x42011d81: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:223
+0x42011e19: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+0x42006a02: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:123
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006bfd: load_ml_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:183
+0x420075ee: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:196
+0x420242b4: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40056f60: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5d: memcpy in ROM
+0x42011d81: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:223
+0x42011e19: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+0x42006a02: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:123
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006bfd: load_ml_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:183
+0x420075ee: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:196
+0x420242b4: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40056f60: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5d: memcpy in ROM
+0x42011d81: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:223
+0x42011e19: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+0x42006a02: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:123
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006bfd: load_ml_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:183
+0x420075ee: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:196
+0x420242b4: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40056f60: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5d: memcpy in ROM
+0x42011d81: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:223
+0x42011e19: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+0x42006a02: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:123
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006bfd: load_ml_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:183
+0x420075ee: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:196
+0x420242b4: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0;33m--- 0x40056f60: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m--- 0x40056f5d: memcpy in ROM
+0x42011d81: _fread_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:223
+0x42011e19: fread at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fread.c:266 (discriminator 1)
+0x42006a02: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:123
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006a2a: recursive_load_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:105
+0x42006bfd: load_ml_net at /media/wish/Disk/esp/camera_example/components/BNN/loadNet.c:183
+0x420075ee: app_main at /media/wish/Disk/esp/camera_example/main/take_picture.c:196
+0x420242b4: main_task at /media/wish/Disk/esp/esp-idf/components/freertos/app_startup.c:208
+[0m
+[0m

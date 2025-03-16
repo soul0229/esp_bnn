@@ -1,0 +1,29 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyACM0 1500000[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40379d36: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x403803ed: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387079: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x40385d1b: insert_free_block at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:358 (discriminator 1)
+ (inlined by) block_insert at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:388 (discriminator 1)
+ (inlined by) tlsf_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1205 (discriminator 1)
+0x40385830: multi_heap_free_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:235
+0x4037a60e: heap_caps_free at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:70
+0x403870a9: free at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:39
+0x4200a162: get_32x32_jpg at /media/wish/Disk/esp/camera_example/main/init_camera.c:196
+0x42009fa6: net_Task at /media/wish/Disk/esp/camera_example/main/take_picture.c:63
+0x40380e95: vPortTaskWrapper at /media/wish/Disk/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40379d36: panic_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/panic.c:463
+0x403803ed: esp_system_abort at /media/wish/Disk/esp/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x40387079: __assert_func at /media/wish/Disk/esp/esp-idf/components/newlib/assert.c:80
+0x40385d1b: insert_free_block at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:358 (discriminator 1)
+ (inlined by) block_insert at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:388 (discriminator 1)
+ (inlined by) tlsf_free at /media/wish/Disk/esp/esp-idf/components/heap/tlsf/tlsf.c:1205 (discriminator 1)
+0x40385830: multi_heap_free_impl at /media/wish/Disk/esp/esp-idf/components/heap/multi_heap.c:235
+0x4037a60e: heap_caps_free at /media/wish/Disk/esp/esp-idf/components/heap/heap_caps_base.c:70
+0x403870a9: free at /media/wish/Disk/esp/esp-idf/components/newlib/heap.c:39
+0x4200a162: get_32x32_jpg at /media/wish/Disk/esp/camera_example/main/init_camera.c:196
+0x42009fa6: net_Task at /media/wish/Disk/esp/camera_example/main/take_picture.c:63
+0x40380e95: vPortTaskWrapper at /media/wish/Disk/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m
