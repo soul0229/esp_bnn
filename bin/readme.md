@@ -1,7 +1,7 @@
 #### Compile the generated bin file
 The configuration is shown in the figure.
-![config](picture/config.png)
-![address](picture/address.png)
+![config](../picture/config.png)
+![address](../picture/address.png)
 ```
 --flash_mode dio --flash_freq 80m --flash_size detect
 0x0 bootloader/bootloader.bin
