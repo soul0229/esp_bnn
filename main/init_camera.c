@@ -179,9 +179,9 @@ data_info_t *get_32x32_jpg(){
     
     for(uint16_t heigh=0;heigh<32;heigh++){
         for(uint16_t weight=0;weight<32;weight++){
-            RGB_OUT[0][32-heigh][weight] = data[heigh+32][weight+32].R<<3;
-            RGB_OUT[1][32-heigh][weight] = data[heigh+32][weight+32].G1<<5|data[heigh+32][weight+32].G2<<2;
-            RGB_OUT[2][32-heigh][weight] = data[heigh+32][weight+32].B<<3;
+            RGB_OUT[0][31-heigh][weight] = data[heigh+32][weight+32].R<<3;
+            RGB_OUT[1][31-heigh][weight] = data[heigh+32][weight+32].G1<<5|data[heigh+32][weight+32].G2<<2;
+            RGB_OUT[2][31-heigh][weight] = data[heigh+32][weight+32].B<<3;
         }
     }
     
